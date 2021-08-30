@@ -1,0 +1,14 @@
+# List of recipients.
+# In square brackets: bitcoin wallet address, amount of money and currency. (usd or btc)
+# All the money is sent in bitcoins, if you specify e.g. 10 usd,
+# they will be automatically converted into bitcoins according to the current exchange rate.
+recipients:
+  - [ bitcoin_wallet_address, 10, usd ]
+  - [ bitcoin_wallet_address, 0.00015, btc ]
+
+# Fee for one byte
+# You can leave this field blank, then fee will be calculated automatically.
+fee: 70
+
+# Wallet private key
+key: your_wallet_private_key

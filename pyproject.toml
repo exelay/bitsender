@@ -6,6 +6,9 @@ authors = ["exelay <exelay.rapik@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+bit = "^0.7.2"
+PyYAML = "^5.4.1"
+cleo = "^0.8.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
